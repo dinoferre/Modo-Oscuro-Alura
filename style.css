@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --trono: url("https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/trono-negro.png"); 
+    --astro: url("https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/luna.png");
+    --oscuro: black;
+    --claro: white;
+  }
+  
+  .darkTheme{
+    background-color: var(--oscuro);
+    color: var(--claro);
+    --trono: url(https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/trono-blanco.png);
+    --astro: url(https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/sol.png);
+  }
+  
+  body {
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    transition: 2s;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .astro {
+    background-image: var(--astro);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .trono {
+    background-image: var(--trono);
+    width: 300px;
+    height: 300px;
+  }
+  
+  div{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  p{
+    margin-top: 25px; 
+    text-align: center;
+  }
+
+
+/*Luna         https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/luna.png
+/*Sol          https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/sol.png
+/*Trono Negro  https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/trono-negro.png
+/*Trono Blanco https://caelum-online-public.s3.amazonaws.com/ESP-dark-theme-aluramas+/trono-blanco.png
