@@ -2,4 +2,6 @@
 
 Proyecto de Alura Latam
 
-Link del proyecto en About 👉
+Dino Ferré 👽 - Link del proyecto 👇
+
+https://dinoferre.github.io/Modo-Oscuro-Alura/
